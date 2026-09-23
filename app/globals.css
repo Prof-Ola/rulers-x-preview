@@ -144,8 +144,25 @@ h1 {
   background: white;
 }
 
+.trust-strip {
+  margin-top: 22px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.trust-strip span {
+  padding: 8px 10px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: #fff;
+  color: #4b5565;
+  font-size: 12px;
+  font-weight: 650;
+}
+
 .microcopy {
-  margin-top: 18px;
+  margin-top: 14px;
   color: #7b8494;
   font-size: 12px;
 }
