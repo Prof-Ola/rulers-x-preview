@@ -20,8 +20,8 @@ function Hero({ variant }: { variant: "a" | "b" }) {
       <p className="eyebrow">RULERS-X RESEARCH PREVIEW</p>
       <h1>Know what deserves attention before you risk capital.</h1>
       <p className="hero-copy">
-        RULERS-X is an evidence-based market and capital intelligence system,
-        launching first with digital assets.
+        RULERS-X scans large market universes and narrows them into a smaller set worth investigating.
+        It does not tell you what to buy. The first live market is digital assets; cross-asset expansion comes later.
       </p>
       <div className="thesis-lines" aria-label="RULERS-X operating philosophy">
         <span>Not every market deserves attention.</span>
@@ -83,9 +83,15 @@ export default function Home({
             See how the evidence works
           </a>
         </div>
+        <div className="trust-strip" aria-label="Current trust and safety facts">
+          <span>Static, timestamped snapshot</span>
+          <span>Source provenance visible</span>
+          <span>Read-only</span>
+          <span>No wallet signing</span>
+          <span>Scanner policy: PROVISIONAL</span>
+        </div>
         <p className="microcopy">
-          Read-only validation preview · static snapshot · scanner policy under
-          forward qualification · no trade execution
+          Validation preview only · no trade execution · no investment recommendation
         </p>
       </section>
 
